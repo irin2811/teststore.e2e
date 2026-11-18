@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "skipDefaultLibCheck": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": false,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "allowJs": true,
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "@pages": ["app/pages/index.ts"],
+      "@fixtures": ["tests/fixtures/index.ts"],
+      "@data/*": ["tests/data/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
